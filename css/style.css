@@ -499,62 +499,20 @@ nav ul li a:hover {
 	border: 2px solid #6dea6a;
 	margin-left: 2px;
 }
-.green-btn:after {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: #6dea6a;
-	border-radius: 10rem;
-	z-index: -2;
-  } 
-.green-btn:before {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 0%;
-	height: 100%;
-	background-color: darken($color, 15%);
-	transition: all .3s;
-	border-radius: 10rem;
-	z-index: -1;
-  }
-.green-btn {
-	padding: 11px 25px;
-	display: inline-block;
-	border-radius: 10rem;
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 1rem;
-	letter-spacing: .15rem;
-	transition: all .3s;
-	position: relative;
-	overflow: hidden;
-	z-index: 1;
-
-
-	&:hover {
-	  color: #fff;
-	  &:before {
-		width: 100%;
-	  }
-	}
-  }
 
 .green-btn a {
 	color: #000;
 	font-weight: 600;
 }
 
-.green-btn:hover a{
+.green-btn:hover a {
 	color: #000;
-	
+
 }
+
 .green-btn:hover {
 	background: #fff;
 	border: 2px solid #6dea6a;
 }
+
 /* Banner CSS End Here */
