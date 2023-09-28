@@ -160,7 +160,10 @@ p {
 }
 
 .container {
-	max-width: 1350px;
+	max-width: 1360px;
+}
+.container-fluid {
+	max-width: 1750px;
 }
 
 hr {
@@ -451,10 +454,46 @@ nav ul li a:hover {
 
 
 /* Banner CSS Start Here */
-.banner{
+.banner-thumb {
 	background-image: url(/img/mask-group.png);
-	background-size: cover cover;
-	background-position: center center; 
-	background-repeat: no-repeat;
+	padding-bottom: 600px;
+}
+.banner-content {
+	background: #fff;
+	margin-left: -30px;
+	padding: 107px 0px 89px 0px;
+}
+.banner-content h5 {
+	top: 110px;
+	left: 30px;
+	color: #0da665;
+	font-size: 15px;
+	position: absolute;
+	font-family: "Poppins", Helvetica;
+	font-weight: 600;
+}
+.banner-content h1 {
+	font-family: "Poppins", Helvetica;
+	font-weight: 600;
+	color: #000000;
+	font-size: 80px;
+	line-height: 90px;
+	padding-left: 42px;
+	padding-top: 35px;
+}
+.green-btn {
+	display: flex;
+	width: 150px;
+	align-items: center;
+	justify-content: center;
+	padding: 15px 25px;
+	background-color: #6dea6a;
+	border-radius: 5px;
+	margin-left: 49px;
+	margin-top: 45px;
+}
+.green-btn a{
+	color: #000;
+	font-weight: 600;
 }
 /* Banner CSS End Here */
