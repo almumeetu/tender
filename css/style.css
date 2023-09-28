@@ -321,7 +321,7 @@ label {
 header {
 	background-image: url(/img/gradient.png);
 	background-size: cover;
-	background-repeat: no-repeat ;
+	background-repeat: no-repeat;
 	/* background-position: center */
 	height: 100vh;
 }
@@ -533,6 +533,7 @@ nav ul li a:hover {
 	text-align: center;
 	margin-top: 40px;
 }
+
 .counter h3 {
 	font-weight: 600;
 	color: #21ba4c;
@@ -542,6 +543,7 @@ nav ul li a:hover {
 	font-family: "Poppins", Helvetica;
 	padding-top: 11px;
 }
+
 .counter p {
 	font-weight: 700;
 	color: #000000;
@@ -549,45 +551,88 @@ nav ul li a:hover {
 	text-align: center;
 	letter-spacing: 0;
 }
+
 /* Counter CSS End Here */
 
 
 /* Tender Information CSS start Here */
-#tender-info{
+#tender-info {
 	background-image: url(/img/low-angle-view-modern-skyscraper-with-blue-white-windows-white-s.png);
 	background-repeat: no-repeat;
 	background-position-x: bottom;
 	height: 100vh;
 }
-.section-title h2{
+
+.section-title h2 {
 	font-size: 32px;
 	color: #000;
 	font-weight: 700;
 }
+
 .search-tender p {
 	padding: 26px 20px;
-	background: #a8e4c3;
-	border-radius: 7px;
+	background: #e3f7ec;
+	border-radius: 15px;
 	margin-top: 20px;
 	font-size: 15px;
+	color: #000;
 }
+
 .search-btn {
 	width: 150px;
 	padding: 15px 33px;
-	background-color: #6dea6a;
+	background-color: #e3f7ec;
 	border-radius: 5px;
 	position: absolute;
 	top: 11px;
 	right: 11px;
 }
-.search-btn a{
+
+.search-btn a {
 	color: #000;
 	font-weight: 700;
 }
-.search-btn a i{
+
+.search-btn a i {
 	padding-right: 7px;
 }
+
 .search-tender {
 	position: relative;
+	margin-bottom: 40px;
+}
+.tender-info {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.info-title{
+	background-color: #0da665;
+    border-radius: 15px 15px 0px 0px;
+}
+.info-title h3 {
+	font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 19px;
+    letter-spacing: 0;
+    padding: 30px 20px;
+}
+.info-content{
+	background-color: #e3f7ec;
+    border-radius: 0px 0px 15px 15px;
+	padding: 30px 20px;
+	margin-top: -8px;
+}
+.info-content p{
+	color: #000;
+}
+.info-date li{
+	color: #000;
+	font-weight: 700;
+}
+.info-date li span{
+	color: #000;
+	font-weight: 300;
 }
 /* Tender Information CSS end Here  */
