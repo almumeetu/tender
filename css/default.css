@@ -665,16 +665,19 @@
 /* Color */
 
 .white-color {
-	color: #fff;
+	color: #ffffff;
 }
 .black-color {
-	color: #222;
+	color: #000000;
 }
 .theme-color {
-	color: #222;
+	color: #21ba4c;
 }
 .primary-color {
-	color: #222;
+	color: #6dea6a;
+}
+.text-color {
+	color: #555555;
 }
 /* black overlay */
 
