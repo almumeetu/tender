@@ -24,24 +24,30 @@
 
 /* 1. Theme default css */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400,500,600,700');
- body {
+
+body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
 	font-style: normal;
 }
+
 .img {
 	max-width: 100%;
 	transition: all 0.3s ease-out 0s;
 }
+
 .f-left {
 	float: left
 }
+
 .f-right {
 	float: right
 }
+
 .fix {
 	overflow: hidden
 }
+
 a,
 .button {
 	-webkit-transition: all 0.3s ease-out 0s;
@@ -50,11 +56,13 @@ a,
 	-o-transition: all 0.3s ease-out 0s;
 	transition: all 0.3s ease-out 0s;
 }
+
 a:focus,
 .button:focus {
 	text-decoration: none;
 	outline: none;
 }
+
 a:focus,
 a:hover,
 .portfolio-cat a:hover,
@@ -62,18 +70,29 @@ a:hover,
 	color: #2B96CC;
 	text-decoration: none;
 }
+
 a,
 button {
 	color: #1696e7;
 	outline: medium none;
 }
-button:focus,input:focus,input:focus,textarea,textarea:focus{outline: 0}
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+	outline: 0
+}
+
 .uppercase {
 	text-transform: uppercase;
 }
+
 .capitalize {
 	text-transform: capitalize;
 }
+
 h1,
 h2,
 h3,
@@ -88,6 +107,7 @@ h6 {
 	font-weight: 400;
 	text-transform: normal;
 }
+
 h1 a,
 h2 a,
 h3 a,
@@ -96,32 +116,41 @@ h5 a,
 h6 a {
 	color: inherit;
 }
+
 h1 {
 	font-size: 40px;
 	font-weight: 500;
 }
+
 h2 {
 	font-size: 35px;
 }
+
 h3 {
 	font-size: 28px;
 }
+
 h4 {
 	font-size: 22px;
 }
+
 h5 {
 	font-size: 18px;
 }
+
 h6 {
 	font-size: 16px;
 }
+
 ul {
 	margin: 0px;
 	padding: 0px;
 }
+
 li {
 	list-style: none
 }
+
 p {
 	font-size: 14px;
 	font-weight: normal;
@@ -129,46 +158,55 @@ p {
 	color: #7e7e7e;
 	margin-bottom: 15px;
 }
+
 hr {
 	border-bottom: 1px solid #eceff8;
 	border-top: 0 none;
 	margin: 30px 0;
 	padding: 0;
 }
+
 label {
 	color: #7e7e7e;
 	cursor: pointer;
 	font-size: 14px;
 	font-weight: 400;
 }
+
 *::-moz-selection {
 	background: #d6b161;
 	color: #fff;
 	text-shadow: none;
 }
+
 ::-moz-selection {
 	background: #444;
 	color: #fff;
 	text-shadow: none;
 }
+
 ::selection {
 	background: #444;
 	color: #fff;
 	text-shadow: none;
 }
+
 *::-moz-placeholder {
 	color: #555555;
 	font-size: 14px;
 	opacity: 1;
 }
+
 *::placeholder {
 	color: #555555;
 	font-size: 14px;
 	opacity: 1;
 }
+
 .theme-overlay {
 	position: relative
 }
+
 .theme-overlay::before {
 	background: #1696e7 none repeat scroll 0 0;
 	content: "";
@@ -179,9 +217,11 @@ label {
 	top: 0;
 	width: 100%;
 }
+
 .separator {
 	border-top: 1px solid #f2f2f2
 }
+
 /* button style */
 
 .btn {
@@ -205,9 +245,11 @@ label {
 	vertical-align: middle;
 	white-space: nowrap;
 }
-.breadcrumb > .active {
+
+.breadcrumb>.active {
 	color: #888;
 }
+
 .owl-carousel .owl-nav div {
 	background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
 	height: 40px;
@@ -222,14 +264,17 @@ label {
 	visibility: hidden;
 	width: 40px;
 }
+
 .owl-carousel .owl-nav div.owl-next {
 	left: auto;
 	right: 20px;
 }
+
 .owl-carousel:hover .owl-nav div {
 	opacity: 1;
 	visibility: visible;
 }
+
 .owl-carousel .owl-nav div:hover {
 	background: #2B96CC;
 	color: #fff
@@ -249,6 +294,7 @@ label {
 	font-size: 20px;
 	line-height: 34px;
 }
+
 #scrollUp:hover {
 	background: #444;
 }
@@ -264,10 +310,120 @@ label {
 
 
 /* Header CSS start Here */
+header {
+	background-image: url(/img/gradient.png);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 800px;
+}
+
+.logo {
+	padding: 10px;
+	display: flex;
+}
+
+.header-btn {
+	padding: 10px;
+}
+
+.logo-img a img {
+	width: 40px;
+	height: 47px;
+}
+
+.logo-img {
+	margin-top: 13px;
+}
+
+.logo-img,
+.logo-text {
+	display: inline;
+}
+
+.logo-text a {
+	color: #ffffff;
+	font-family: "Poppins", Helvetica;
+	font-weight: 700;
+	font-size: 36px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: normal;
+}
+
+.logo-text a p {
+	font-family: "Open Sans", Helvetica;
+	font-weight: 400;
+	color: #000000;
+	font-size: 16px;
+	letter-spacing: 3.84px;
+	line-height: normal;
+	margin-top: -15px;
+}
+
+/* menu css */
+.main-menu {
+	text-align: center;
+	padding: 15px 0px;
+}
+
+nav {
+	padding: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 45px;
+}
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-family: "Poppins", Helvetica;
+	font-weight: 500;
+	color: #ffffff;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: normal;
+	transition: .3s;
+}
+nav ul li a:hover{
+	color: #000;
+}
+.login-btn,
+.register-btn {
+	display: inline;
+}
+
+.login-btn {
+	padding: 15px 50px;
+	background-color: #ffffff;
+	border-radius: 5px;
+}
+
+.register-btn {
+	margin-left: 20px;
+	padding: 15px 50px;
+	background-color: #ffffff;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+.container{
+	max-width: 1350px;
+}
 
 /* Header CSS End Here */
-
-
-
-
-
