@@ -322,6 +322,7 @@ header {
 	background-image: url(/img/gradient.png);
 	/* background-size: cover;
 	background-position: center; */
+	height: 100vh;
 }
 
 .logo {
@@ -516,3 +517,35 @@ nav ul li a:hover {
 }
 
 /* Banner CSS End Here */
+
+
+
+
+
+
+/* Counter CSS start Here */
+.counter {
+	width: 312px;
+	height: 150px;
+	background-color: #ffffff;
+	border-radius: 15px;
+	text-align: center;
+	margin-top: 40px;
+}
+.counter h3 {
+	font-weight: 600;
+	color: #21ba4c;
+	font-size: 64px;
+	text-align: center;
+	line-height: 90px;
+	font-family: "Poppins", Helvetica;
+	padding-top: 13px;
+}
+.counter p {
+	font-weight: 700;
+	color: #000000;
+	font-size: 16px;
+	text-align: center;
+	letter-spacing: 0;
+}
+/* Counter CSS End Here */
