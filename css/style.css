@@ -559,8 +559,13 @@ nav ul li a:hover {
 	background-position-x: bottom;
 	height: 100vh;
 }
+.section-title h2{
+	font-size: 32px;
+	color: #000;
+	font-weight: 700;
+}
 .search-tender p {
-	padding: 20px;
+	padding: 26px 20px;
 	background: #a8e4c3;
 	border-radius: 7px;
 	margin-top: 20px;
@@ -568,8 +573,21 @@ nav ul li a:hover {
 }
 .search-btn {
 	width: 150px;
-	padding: 15px 30px;
+	padding: 15px 33px;
 	background-color: #6dea6a;
 	border-radius: 5px;
+	position: absolute;
+	top: 11px;
+	right: 11px;
+}
+.search-btn a{
+	color: #000;
+	font-weight: 700;
+}
+.search-btn a i{
+	padding-right: 7px;
+}
+.search-tender {
+	position: relative;
 }
 /* Tender Information CSS end Here  */
