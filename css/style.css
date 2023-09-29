@@ -322,8 +322,8 @@ header {
 	background-image: url(/img/gradient.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	/* background-position: center */
-	height: 100vh;
+	background-position: fixed;
+	height: auto;
 }
 
 .logo {
@@ -531,7 +531,6 @@ nav ul li a:hover {
 	background-color: #ffffff;
 	border-radius: 15px;
 	text-align: center;
-	margin-top: 40px;
 }
 
 .counter h3 {
@@ -565,7 +564,7 @@ nav ul li a:hover {
 .section-title h2 {
 	font-size: 32px;
 	color: #000;
-	font-weight: 700;
+	font-weight: 600;
 	margin-bottom: 35px;
 }
 .background-info{
@@ -682,3 +681,12 @@ nav ul li a:hover {
 	line-height: 25px;
 }
 /* Tender about CSS End Here */
+
+ /* Tender service CSS Start Here  */
+ #service{
+	background-color: #f8f5ee;
+ }
+ .mb-15{
+	margin-bottom: 15px !important;
+ }
+ /* Tender service CSS End Here  */
