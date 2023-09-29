@@ -650,7 +650,7 @@ nav ul li a:hover {
 	width: 100%;
 }
 .about-info {
-	padding: 63px 108px;
+	padding: 53px 215px 53px 95px;
 }
 .about-info-title h2 {
 	color: #000000;
@@ -666,5 +666,19 @@ nav ul li a:hover {
 	font-size: 16px;
 	/* letter-spacing: 0; */
 	line-height: 27px;
+}
+.about-client-info h1 {
+	font-family: "Poppins", Helvetica;
+	font-weight: 600;
+	color: #21ba4c;
+	font-size: 64px;
+	line-height: 90px;
+}
+.about-client-info h6 {
+	font-family: "Poppins", Helvetica;
+	font-weight: 600;
+	color: #000000;
+	font-size: 16px;
+	line-height: 25px;
 }
 /* Tender about CSS End Here */
