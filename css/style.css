@@ -559,32 +559,37 @@ nav ul li a:hover {
 #tender-info {
 	background-image: url(/img/low-angle-view-modern-skyscraper-with-blue-white-windows-white-s.png);
 	background-repeat: no-repeat;
-	background-position-x: bottom;
-	height: 100vh;
+	object-fit: cover;
 }
 
 .section-title h2 {
 	font-size: 32px;
 	color: #000;
 	font-weight: 700;
+	margin-bottom: 35px;
 }
-
-.search-tender p {
+.background-info{
+	background-color: #ECF6F2;
+}
+.search-tender input {
 	padding: 26px 20px;
-	background: #e3f7ec;
+	background: #fff;
 	border-radius: 15px;
 	margin-top: 20px;
 	font-size: 15px;
 	color: #000;
+	width: 100%;
+	outline: none;
+	border: none;
 }
 
 .search-btn {
 	width: 150px;
 	padding: 15px 33px;
-	background-color: #e3f7ec;
+	background-color: #6dea6a;
 	border-radius: 5px;
 	position: absolute;
-	top: 11px;
+	top: 30px;
 	right: 11px;
 }
 
@@ -602,8 +607,7 @@ nav ul li a:hover {
 	margin-bottom: 40px;
 }
 .tender-info {
-	text-align: center;
-	padding-bottom: 20px;
+	padding: 20px;
 }
 
 .info-title{
@@ -612,27 +616,27 @@ nav ul li a:hover {
 }
 .info-title h3 {
 	font-family: "Poppins", Helvetica;
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 19px;
-    letter-spacing: 0;
-    padding: 30px 20px;
+	font-weight: 600;
+	color: #ffffff;
+	font-size: 18px;
+	letter-spacing: 0;
+	padding: 20px 20px;
 }
 .info-content{
-	background-color: #e3f7ec;
+	background-color: #fff;
     border-radius: 0px 0px 15px 15px;
 	padding: 30px 20px;
 	margin-top: -8px;
 }
-.info-content p{
-	color: #000;
+.info-content p {
+	color: #555555;
 }
 .info-date li{
 	color: #000;
 	font-weight: 700;
 }
-.info-date li span{
-	color: #000;
+.info-date li span {
+	color: #555555;
 	font-weight: 300;
 }
 /* Tender Information CSS end Here  */
