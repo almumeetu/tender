@@ -640,3 +640,31 @@ nav ul li a:hover {
 	font-weight: 300;
 }
 /* Tender Information CSS end Here  */
+
+
+/* Tender about CSS Start Here */
+.img-left img{
+	width: 100%;
+}
+.img-right img{
+	width: 100%;
+}
+.about-info {
+	padding: 63px 108px;
+}
+.about-info-title h2 {
+	color: #000000;
+	font-size: 36px;
+	line-height: 50px;
+	font-family: "Poppins", Helvetica;
+	font-weight: 600;
+}
+.about-info-content p {
+	font-family: "Poppins", Helvetica;
+	font-weight: 400;
+	color: #555555;
+	font-size: 16px;
+	/* letter-spacing: 0; */
+	line-height: 27px;
+}
+/* Tender about CSS End Here */
