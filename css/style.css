@@ -319,7 +319,7 @@ label {
 
 /* Header CSS start Here */
 header {
-	background-image: url(/img/gradient.png);
+	background-image: url('../img/background/gradient.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: fixed;
@@ -458,8 +458,10 @@ nav ul li a:hover {
 
 /* Banner CSS Start Here */
 .banner-thumb {
-	background-image: url(/img/mask-group.png);
+	background-image: url('../img/background/banner.png');
 	padding-bottom: 600px;
+	width: 100%;
+	height: auto;
 }
 
 .banner-content {
@@ -556,7 +558,7 @@ nav ul li a:hover {
 
 /* Tender Information CSS start Here */
 #tender-info {
-	background-image: url(/img/low-angle-view-modern-skyscraper-with-blue-white-windows-white-s.png);
+	background-image: url(/images/low-angle-view-modern-skyscraper-with-blue-white-windows-white-s.png);
 	background-repeat: no-repeat;
 	object-fit: cover;
 }
@@ -565,7 +567,7 @@ nav ul li a:hover {
 	font-size: 32px;
 	color: #000;
 	font-weight: 600;
-	margin-bottom: 35px;
+	margin-bottom: 15px;
 }
 .background-info{
 	background-color: #ECF6F2;
@@ -614,12 +616,12 @@ nav ul li a:hover {
     border-radius: 15px 15px 0px 0px;
 }
 .info-title h3 {
+	padding: 20px 20px 13px 20px;
 	font-family: "Poppins", Helvetica;
 	font-weight: 600;
 	color: #ffffff;
-	font-size: 18px;
-	letter-spacing: 0;
-	padding: 20px 20px;
+	font-size: 15px;
+	line-height: 30px;
 }
 .info-content{
 	background-color: #fff;
@@ -689,4 +691,60 @@ nav ul li a:hover {
  .mb-15{
 	margin-bottom: 15px !important;
  }
+ .section-title h5 {
+	font-family: "Poppins", Helvetica;
+	font-weight: 600;
+	color: #0da665;
+	font-size: 15px;
+	text-align: center;
+	padding-bottom: 5px;
+}
+.section-title p {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 27px;
+	color: #555;
+}
+.service-1 {
+	border-radius: 15px;
+	border: 1px solid;
+	padding: 70px 70px;
+	border-color: #cad4dc;
+	background: linear-gradient(180deg, rgb(223, 221, 219) 0%, rgb(234, 232, 231) 100%);
+}
+
+.service-icon {
+	width: 150px;
+	height: 150px;
+	background: #fff;
+	border-radius: 75px;
+}
+.service-icon img {
+	margin: 43px 43px;
+	width: 65px;
+}
+.service-1 span {
+	color: #0da665;
+	font-size: 30px;
+	position: absolute;
+	top: 59px;
+	right: 83px;
+}
+.service-title h3 {
+	font-family: "Poppins", Helvetica;
+	font-weight: 600;
+	color: #000000;
+	font-size: 25px;
+	line-height: 30px;
+	margin-top: 45px;
+}
+.service-content p {
+
+	font-family: "Poppins", Helvetica;
+	font-weight: 400;
+	color: #555555;
+	font-size: 16px;
+	line-height: 27px;
+	margin-top: 30px;
+}
  /* Tender service CSS End Here  */
