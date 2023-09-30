@@ -572,7 +572,7 @@ nav ul li a:hover {
 }
 .section-title h2 {
 	font-size: 32px;
-	color: #000;
+	color: #0da665;
 	font-weight: 600;
 	margin-bottom: 15px;
 }
@@ -889,7 +889,102 @@ nav ul li a:hover {
 	font-size: 32px;
 	line-height: 90px;
 	font-family: "Poppins", Helvetica;
-	padding-left: 20px;
+	/* padding-left: 20px; */
 }
 
 /* Contact CSS End hEre */
+
+
+
+/* Price css start here */
+#price{
+	background: url(../img/background/search-background.png);
+	background-position: center;
+	background-size: cover;
+}
+.price-section {
+	background-color: #f1f2ed;
+	border-radius: 15px;
+	padding: 30px 60px;
+	margin-bottom: 100px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.l-content p {
+	font-weight: 600;
+	color: #000000;
+	font-size: 18px;
+	margin-top: 40px;
+	letter-spacing: 1px;
+}
+.l-content p:first-child {
+	margin-top: 30px;
+}
+.l-content p span {
+	color: #555555;
+	font-weight: 300;
+	letter-spacing: 3px;
+	font-size: 18px;
+
+}
+.l-content p{
+	position: relative;
+}
+.l-content p img {
+	position: absolute;
+	top: 45px;
+	left: 0;
+}
+.r-content h2 {
+	font-family: "Poppins", Helvetica;
+	font-weight: 600;
+	color: #000000;
+	font-size: 32px;
+	line-height: 70px;
+}
+.r-content a img {
+	width: 163px;
+	height: 67px;
+	margin-top: 25px;
+}
+/* Price css End here */
+
+/* Contact */
+.contact {
+    background: var(--second-bg-color);
+}
+
+.contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4.2rem;
+}
+
+.contact-form form {
+    position: relative;
+    width: 600px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px var(--main-color);
+    background: #2d343f;
+    color: var(--text-color);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: var(--other-color);
+    font-size: 15px;
+}
+
+.send-btn {
+    width: 30%;
+}
+
