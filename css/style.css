@@ -897,9 +897,81 @@ nav ul li a:hover {
 
 
 /* Price css start here */
-#price{
 
+
+.pprice {
+	background: #fff;
+	padding: 80px 20px;
+	height: 435px;
+	width: 370px;
+	border-radius: 10px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
+.pprice {
+	position: relative;
+}
+
+.prices-1 i, .prices-1 h4 {
+	display: inline;
+}
+.prices-1 h4 {
+	margin-left: 20px;
+}
+.prices-1 h4 {
+	margin-left: 20px;
+	line-height: 65px;
+}
+.prices-1 i {
+	border-radius: 25px;
+	background: #00C56E;
+	padding: 3px;
+	color: #fff;
+	font-size: 14px;
+}
+.prices-1 h4 span {
+
+	font-size: 18px;
+	font-weight: 300;
+	color: #555555;
+}
+.pricing-title {
+	width: 224px;
+	height: 70px;
+	padding: 24px 0px 15px 70px;
+	border-radius: 68px 0px 62px 0;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	background: #7E82E5;
+}
+.business{
+	background: #F60AF2;
+}
+.starter{
+	background: #B648E9;
+}
+.free{
+	background: #A15EE9;
+}
+.pricing-title {
+	position: absolute;
+	top: -42px;
+	left: 67px;
+}
+.pricing-title h3 {
+	font-size: 26px;
+	font-weight: 500;
+	color: #fff;
+	text-transform: uppercase;
+}
+.prices-btn button {
+	background: none;
+	outline: none;
+	border: none;
+}
+
+
+
+
+/*
 .price-section {
 	background-color: #f1f2ed;
 	border-radius: 15px;
@@ -947,7 +1019,7 @@ nav ul li a:hover {
 	width: 163px;
 	height: 67px;
 	margin-top: 25px;
-}
+} */
 /* Price css End here */
 
 /* Contact */
