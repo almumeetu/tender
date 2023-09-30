@@ -572,7 +572,7 @@ nav ul li a:hover {
 }
 .section-title h2 {
 	font-size: 32px;
-	color: #0da665;
+	color: #000;
 	font-weight: 600;
 	margin-bottom: 15px;
 }
@@ -898,9 +898,7 @@ nav ul li a:hover {
 
 /* Price css start here */
 #price{
-	background: url(../img/background/search-background.png);
-	background-position: center;
-	background-size: cover;
+
 }
 .price-section {
 	background-color: #f1f2ed;
@@ -908,6 +906,11 @@ nav ul li a:hover {
 	padding: 30px 60px;
 	margin-bottom: 100px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+	position: relative;
+}
+.price-section .line13 {
+	position: absolute;
+	left: 50%;
 }
 .l-content p {
 	font-weight: 600;
@@ -922,9 +925,8 @@ nav ul li a:hover {
 .l-content p span {
 	color: #555555;
 	font-weight: 300;
-	letter-spacing: 3px;
+	letter-spacing: 0px;
 	font-size: 18px;
-
 }
 .l-content p{
 	position: relative;
@@ -951,9 +953,11 @@ nav ul li a:hover {
 /* Contact */
 
 .contact-form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 15px;
+	position: relative;
 }
 
 .contact-form form {
@@ -976,7 +980,7 @@ form textarea {
 
 form input::placeholder,
 form textarea::placeholder {
-    color: var(--other-color);
+    color: #555555;
     font-size: 15px;
 }
 
@@ -995,4 +999,44 @@ form textarea::placeholder {
 }
 .contact-btn-2:hover{
 	color: #fff;
+}
+
+.contact-2 {
+	background: #F1F2ED;
+}
+.green{
+	color: #0da665 !important;
+	font-weight: 600 !important;
+}
+form textarea {
+	height: 150px;
+}
+form input {
+	height: 60px;
+}
+.tttitle h3 {
+	font-size: 25px;
+	font-weight: 600;
+	padding-bottom: 20px;
+}
+.contact-left {
+	background: #fff;
+	padding: 44px 35px;
+	border-radius: 8px;
+	margin-top: 18px;
+	margin-left: 65px;
+	width: 350px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.contact-left h4 {
+	font-size: 18px;
+	font-weight: 500;
+	color: #000;
+	margin-bottom: 20px;
+	line-height: 30px;
+}
+.contact-left h4 span {
+	font-size: 17px;
+	font-weight: 300;
+	color: #555555;
 }
