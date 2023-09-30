@@ -708,43 +708,47 @@ nav ul li a:hover {
 .service-1 {
 	border-radius: 15px;
 	border: 1px solid;
-	padding: 70px 70px;
+	padding: 35px 40px;
 	border-color: #cad4dc;
 	background: linear-gradient(180deg, rgb(223, 221, 219) 0%, rgb(234, 232, 231) 100%);
 }
-
 .service-icon {
-	width: 150px;
-	height: 150px;
+	width: 120px;
+	height: 120px;
 	background: #fff;
-	border-radius: 75px;
+	border-radius: 60px;
 }
 .service-icon img {
-	margin: 43px 43px;
-	width: 65px;
+	width: 55px;
+	height: 55px;
+	object-fit: cover;
+	position: absolute;
+	top: 70px;
+	left: 89px;
 }
 .service-1 span {
 	color: #0da665;
-	font-size: 30px;
+	font-size: 25px;
 	position: absolute;
-	top: 59px;
-	right: 83px;
+	top: 40px;
+	right: 55px;
 }
 .service-title h3 {
 	font-family: "Poppins", Helvetica;
 	font-weight: 600;
 	color: #000000;
-	font-size: 25px;
+	font-size: 23px;
 	line-height: 30px;
-	margin-top: 45px;
+	margin-top: 25px;
 }
 .service-content p {
-
 	font-family: "Poppins", Helvetica;
 	font-weight: 400;
 	color: #555555;
 	font-size: 16px;
-	line-height: 27px;
-	margin-top: 30px;
+	line-height: 30px;
+	margin-top: 18px;
+	padding: 0px;
+	margin-bottom: 0px;
 }
  /* Tender service CSS End Here  */
