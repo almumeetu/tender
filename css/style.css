@@ -841,3 +841,55 @@ nav ul li a:hover {
 }
 
  /* Tender service CSS End Here  */
+
+
+
+/* Contact CSS start hEre */
+.contact {
+	background: #d7e2c9;
+	padding: 50px 0px;
+}
+.contact-title h2 {
+	font-family: "Poppins", Helvetica;
+	font-weight: 600;
+	color: #000000;
+	font-size: 32px;
+	line-height: 90px;
+}
+.contact{
+	background: #d7e2c9;
+}
+.contact-btn a {
+	background: #0da665;
+	padding: 15px 35px;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: 600;
+	border: 1px solid #0da665;
+	transition: .3s;
+	font-size: 16px;
+	line-height: 90px;
+	margin-left: 100px;
+}
+.contact-btn a:hover {
+	background: #fff;
+	color: #000;
+	border: 1px solid #0da665;
+}
+.contact span {
+	font-family: "Poppins", Helvetica;
+	font-weight: 600;
+	color: #000000;
+	line-height: 90px;
+	padding-left: 30px;
+}
+.number a h2 {
+	font-weight: 600;
+	color: #0da665;
+	font-size: 32px;
+	line-height: 90px;
+	font-family: "Poppins", Helvetica;
+	padding-left: 20px;
+}
+
+/* Contact CSS End hEre */
