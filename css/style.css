@@ -563,6 +563,13 @@ nav ul li a:hover {
 	object-fit: cover;
 }
 
+.iinfoo {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+	border-radius: 15px;
+}
+.search-tender input {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 .section-title h2 {
 	font-size: 32px;
 	color: #000;
@@ -640,6 +647,33 @@ nav ul li a:hover {
 	color: #555555;
 	font-weight: 300;
 }
+.search-pagination{
+	margin-top: 100px;
+}
+.search-pagination ul li {
+	display: inline-block;
+	margin-left: 20px;
+	padding: 16px 20px;
+	background: #fff;
+	border-radius: 7px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	transition: .3s;
+}
+.search-pagination ul li:first-child{
+	margin-left: 0;
+}
+.search-pagination ul li:hover{
+	background: #0da665;
+}
+.search-pagination ul li a{
+	color: #0da665;
+	font-weight: 600;
+	transition: .3s;
+}
+.search-pagination ul li:hover a{
+	color: #fff;
+}
 /* Tender Information CSS end Here  */
 
 
@@ -708,36 +742,36 @@ nav ul li a:hover {
 .service-1 {
 	border-radius: 15px;
 	border: 1px solid;
-	padding: 35px 40px;
+	padding: 35px 30px;
 	border-color: #cad4dc;
 	background: linear-gradient(180deg, rgb(223, 221, 219) 0%, rgb(234, 232, 231) 100%);
 }
 .service-icon {
-	width: 120px;
-	height: 120px;
+	width: 100px;
+	height: 100px;
 	background: #fff;
-	border-radius: 60px;
+	border-radius: 50px;
 }
 .service-icon img {
-	width: 55px;
-	height: 55px;
+	width: 50px;
+	height: 50px;
 	object-fit: cover;
 	position: absolute;
-	top: 70px;
-	left: 89px;
+	top: 63px;
+	left: 98px;
 }
 .service-1 span {
 	color: #0da665;
-	font-size: 25px;
+	font-size: 19px;
 	position: absolute;
 	top: 40px;
-	right: 55px;
+	right: 75px;
 }
 .service-title h3 {
 	font-family: "Poppins", Helvetica;
 	font-weight: 600;
 	color: #000000;
-	font-size: 23px;
+	font-size: 22px;
 	line-height: 30px;
 	margin-top: 25px;
 }
@@ -751,4 +785,59 @@ nav ul li a:hover {
 	padding: 0px;
 	margin-bottom: 0px;
 }
+.service-1 {
+	height: auto;
+	width: 370px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: .3s;
+	margin: 0 auto;
+}
+.service-1:hover {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+.pagination-icon{
+	
+}
+.pagination-icon ul li {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background: #fff;
+	border-radius: 25px;
+	padding: 13px 0;
+	border: 1px solid #cad4dc;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: .3s;
+}
+.pagination-icon ul li a{
+	color: #0da665;
+	font-weight: 600;
+	transition: .3s;
+}
+.pagination-icon ul li:hover{
+	background: #0da665;
+	border: 1px solid #0da665;
+}
+.pagination-icon ul li:hover a{
+	color: #fff;
+}
+.pagination-icon .line-left {
+	position: absolute;
+	content: "";
+	height: 1px;
+	width: 45%;
+	background: #cad4dc;
+	top: 27px;
+	left: 13px;
+}
+.pagination-icon .line-right {
+	position: absolute;
+	content: "";
+	height: 1px;
+	width: 45%;
+	background: #cad4dc;
+	top: 27px;
+	right: 13px;
+}
+
  /* Tender service CSS End Here  */
