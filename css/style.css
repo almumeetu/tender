@@ -995,10 +995,14 @@ form textarea::placeholder {
 	color: #000;
 	font-weight: 600;
 	font-size: 18px;
+	border: 2px solid #6dea6a;
+	transition: .3s;
 	
 }
 .contact-btn-2:hover{
-	color: #fff;
+	color: #000;
+	background: #fff;
+	border: 2px solid #6dea6a;
 }
 
 .contact-2 {
@@ -1021,9 +1025,9 @@ form input {
 }
 .contact-left {
 	background: #fff;
-	padding: 44px 35px;
+	padding: 45px 35px;
 	border-radius: 8px;
-	margin-top: 18px;
+	margin-top: 14px;
 	margin-left: 65px;
 	width: 350px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -1039,4 +1043,9 @@ form input {
 	font-size: 17px;
 	font-weight: 300;
 	color: #555555;
+}
+.section-title h3 {
+	font-weight: 500;
+	font-size: 25px;
+	margin-bottom: 22px;
 }
