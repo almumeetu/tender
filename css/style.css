@@ -792,6 +792,10 @@ nav ul li a:hover {
 	transition: .3s;
 	margin: 0 auto;
 }
+.cross i {
+	background: #F64E1D !important;
+	padding: 3px 5px !important;
+}
 .service-1:hover {
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
@@ -902,24 +906,33 @@ nav ul li a:hover {
 .pprice {
 	background: #fff;
 	padding: 80px 20px;
-	height: 435px;
-	width: 370px;
+	height: 500px;
+	position: relative;
+	width: 315px;
 	border-radius: 10px;
+	/* border: 1px solid transparent; */
+	cursor: pointer;
+	/* box-shadow: 0 0 5px #0da665; */
+	transition: all .50s ease;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-.pprice {
-	position: relative;
+.pprice:hover {
+	/* border: 1px solid #0da665; */
+    transform: translateY(-5px) scale(1.03);
 }
 
-.prices-1 i, .prices-1 h4 {
+
+.prices-1 i, .prices-1 p {
 	display: inline;
 }
-.prices-1 h4 {
+.prices-1 p {
 	margin-left: 20px;
 }
-.prices-1 h4 {
+.prices-1 p {
 	margin-left: 20px;
-	line-height: 65px;
+	line-height: 45px;
+	font-size: 18px;
+	color: #000;
 }
 .prices-1 i {
 	border-radius: 25px;
@@ -928,7 +941,7 @@ nav ul li a:hover {
 	color: #fff;
 	font-size: 14px;
 }
-.prices-1 h4 span {
+.prices-1 p span {
 
 	font-size: 18px;
 	font-weight: 300;
@@ -940,17 +953,17 @@ nav ul li a:hover {
 	padding: 24px 0px 15px 70px;
 	border-radius: 68px 0px 62px 0;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-	background: #7E82E5;
+	background: #0da665;
 }
-.business{
-	background: #F60AF2;
+/* .business{
+	background: #F60AF2 !important;
 }
 .starter{
-	background: #B648E9;
+	background: #B648E9 !important;
 }
 .free{
-	background: #A15EE9;
-}
+	background: #A15EE9 !important;
+} */
 .pricing-title {
 	position: absolute;
 	top: -42px;
@@ -967,8 +980,31 @@ nav ul li a:hover {
 	outline: none;
 	border: none;
 }
+.prices-btn {
+	width: 130px;
+	padding: 9px 23px;
+	background: #0da665;
+	position: absolute;
+	left: 93px;
+	bottom: 40px;
+	border: 1px solid #fff;
+	transition: .3s;
+}
+.prices-btn:hover button a {
+	color: #000;
+}
+.prices-btn:hover {
+	background: #fff;
+	border: 1px solid #00C56E;
 
-
+}
+.prices-btn button a {
+	color: #fff;
+	font-weight: bold;
+}
+#price {
+	background: #ECF6F2;
+}
 
 
 /*
