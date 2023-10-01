@@ -147,5 +147,12 @@ $.scrollUp({
 // WOW active
 new WOW().init();
 
+const headerr = document.querySelector("#header-top");
+
+window.addEventListener ("scroll", function(){
+    headerr.classList.toggle ("sticky", window.scrollY > 120);
+});
 
 })(jQuery);
+
+

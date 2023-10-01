@@ -63,11 +63,8 @@ a:focus,
 	outline: none;
 }
 
-a:focus,
-a:hover,
-.portfolio-cat a:hover,
-.footer -menu li a:hover {
-	color: #2B96CC;
+a:focus, a:hover, .portfolio-cat a:hover, .footer -menu li a:hover {
+	color: #000;
 	text-decoration: none;
 }
 
@@ -168,10 +165,10 @@ p {
 }
 
 hr {
-	border-bottom: 1px solid #eceff8;
+	border-bottom: 1px solid #D3DCE1;
 	border-top: 0 none;
-	margin: 30px 0;
-	padding: 0;
+	margin: 21px 0;
+	padding: 26px;
 }
 
 label {
@@ -324,6 +321,16 @@ header {
 	background-repeat: no-repeat;
 	background-position: fixed;
 	height: auto;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	right: 0;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0;
+	transition: all .50s ease;
 }
 
 .logo {
@@ -457,6 +464,12 @@ nav ul li a:hover {
 
 
 /* Banner CSS Start Here */
+#banner{
+	background-image: url(../img/background/gradient.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
 .banner-thumb {
 	background-image: url('../img/background/banner.png');
 	padding-bottom: 600px;
@@ -904,7 +917,7 @@ nav ul li a:hover {
 
 
 .pprice {
-	background: #fff;
+	background: #F1F2ED;
 	padding: 80px 20px;
 	height: 500px;
 	position: relative;
@@ -918,7 +931,7 @@ nav ul li a:hover {
 }
 .pprice:hover {
 	/* border: 1px solid #0da665; */
-	transform: translateY(-15px) scale(1.00);
+	transform: translateY(-10px) scale(1.00);
 }
 
 .prices-1{
@@ -1011,7 +1024,7 @@ nav ul li a:hover {
 	font-weight: bold;
 }
 #price {
-	background: #ECF6F2;
+	background: #fff;
 }
 
 
@@ -1164,4 +1177,92 @@ form input {
 	font-weight: 500;
 	font-size: 25px;
 	margin-bottom: 22px;
+}
+.logo-text-2 {
+	margin-left: 16px;
+	font-family: "Poppins", Helvetica;
+	font-weight: 700;
+	font-size: 36px;
+	/* text-align: center; */
+	letter-spacing: 0;
+	line-height: normal;
+	color: #000;
+	margin-top: -14px;
+}
+.logo-text-2 a{
+	color: #000;
+}
+.logo-text-2 a p {
+	font-family: "Open Sans", Helvetica;
+	font-weight: 400;
+	color: #000000;
+	font-size: 16px;
+	letter-spacing: 3.84px;
+	line-height: normal;
+	margin-top: -15px;
+}
+
+
+
+
+
+
+
+/* footer css start here */
+footer{
+	background: #ECF6F2;
+}
+.sticky {
+    background: #00C56E;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .2);
+    padding: 16px 16%;
+	color: #000;
+}
+.ff-content p {
+	font-family: "Poppins", Helvetica;
+	font-weight: 400;
+	color: #555555;
+	font-size: 16px;
+	line-height: 27px;
+	padding-right: 113px;
+}
+.fc-title h3 {
+	font-size: 21px;
+	line-height: 30px;
+	font-family: "Poppins", Helvetica;
+	font-weight: 600;
+	color: #000000;
+	letter-spacing: 0;
+	margin-bottom: 35px;
+}
+.footer-contact p {
+	font-weight: 600;
+	color: #000000;
+	line-height: 30px;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+.footer-contact p span {
+	color: #555555;
+	font-weight: 400;
+}
+.social-links ul li a {
+	font-family: "Poppins", Helvetica;
+	font-weight: 400;
+	color: #555555;
+	font-size: 16px;
+	letter-spacing: 0;
+	line-height: 36px;
+}
+.copyright p{
+	font-size: 16px;
+	font-weight: 500;
+	color: #555555;
+}
+.section-title {
+	margin-top: 30px;
+}
+.copyright {
+	padding: 12px 0;
 }
