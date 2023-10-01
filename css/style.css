@@ -918,12 +918,20 @@ nav ul li a:hover {
 }
 .pprice:hover {
 	/* border: 1px solid #0da665; */
-    transform: translateY(-5px) scale(1.03);
+	transform: translateY(-15px) scale(1.00);
 }
 
-
+.prices-1{
+	position: relative;
+} 
+.prices-1 img {
+	position: absolute;
+	left: 0;
+	top: 45px;
+}
 .prices-1 i, .prices-1 p {
 	display: inline;
+	transition: all .50s ease;
 }
 .prices-1 p {
 	margin-left: 20px;
