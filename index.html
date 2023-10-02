@@ -32,7 +32,7 @@
     <header id="header" class="header pt-10">
         <div class="container bbackground">
             <div class="row">
-                <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6">
+                <div class="col-xl-2 col-lg-2">
                     <!-- Logo -->
                     <div class="logo">
                         <div class="logo-img">
@@ -47,16 +47,17 @@
                     </div>
                 </div>
 
-                <div id="menu-icon">
-                    <i class="fas fa-bars"></i>
-                </div>
-
-
-                <div class="col-xl-7 col-lg-7 col-md-4 col-sm-4 ">
+                <div class="col-xl-7 col-lg-7">
                     <!-- Main Menu -->
                     <div class="main-menu">
-                        <nav class="navlist">
-                            <ul>
+                        <div id="menu-icon" class="menu-icon">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                        <div id="close-icon" class="close-icon">
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <nav id="nav">
+                            <ul class="navlist">
                                 <li><a href="#banner">Home</a></li>
                                 <li><a href="#about-area">About Us</a></li>
                                 <li><a href="#service">Services</a></li>
@@ -67,15 +68,15 @@
                     </div>
                 </div>
 
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-lg-2">
                     <!-- Header Btn -->
                     <div class="header-btn d-flex">
                         <div class="login-btn">
-                            <a href="#">Login</a>
+                            <a href="login.html">Login</a>
                         </div>
 
                         <div class="register-btn">
-                            <a href="#">Register</a>
+                            <a href="register.html">Register</a>
                         </div>
                     </div>
 
@@ -89,20 +90,20 @@
         <div id="banner" class="banner pb-70 pt-110">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-xl-7 col-lg-7 col-md-7 col-12">
+                    <!-- <div class="col-xl-7 col-lg-7 col-md-7 col-12">
                         <div class="banner-thumb">
-                            <!-- <img src="" class="img-fluid"> -->
+                            <img src="" class="img-fluid">
                         </div>
-                    </div>
-                    <div class="col-xl-5 col-lg-5 col-md-5 col-12">
-                        <div class="banner-content">
+                    </div> -->
+                    <div class="col-12">
+                        <div class="banner-content text-center">
                             <h5>Welcome to Tender 12</h5>
                             <h1>
-                                Latest Tender <br>
+                                Latest Tender 
                                 Notification <br>
                                 Service
                             </h1>
-                            <div class="green-btn">
+                            <div class="greenn-btn">
                                 <a href="#">Contact Us</a>
                             </div>
                         </div>

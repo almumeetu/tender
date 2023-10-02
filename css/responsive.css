@@ -8,41 +8,18 @@
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
 
-
+    nav ul li {
+        margin-right: 30px;
+    }
 }
 
  
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-
     #menu-icon {
         display: block;
     }
 
-    .navlist {
-        position: absolute;
-        top: 90%;
-        right: -100%;
-        width: 300px;
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        background: #6dea6a;
-        transition: all .50s ease;
-    }
-
-    .navlist a {
-        display: block;
-        padding: 17px;
-        font-size: 18px;
-    }
-
-    .navlist.active {
-        right: 0;
-    }
-    .sticky{
-        display: none;
-    }
 
 }
 
@@ -58,3 +35,5 @@
 .container {width:450px}
  
 }
+
+@media (max)
