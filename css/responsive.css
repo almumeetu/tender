@@ -15,6 +15,31 @@
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
 
+    #menu-icon {
+        display: block;
+    }
+
+    .navlist {
+        position: absolute;
+        top: 90%;
+        right: -100%;
+        width: 300px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: var(--bg-color);
+        transition: all .50s ease;
+    }
+
+    .navlist a {
+        display: block;
+        padding: 17px;
+        font-size: 18px;
+    }
+
+    .navlist.active {
+        right: 0;
+    }
 
 }
 

@@ -66,6 +66,19 @@ function mainSlider() {
 }
 mainSlider();
 
+// menu
+let menu = document.querySelector('#menu-icon');
+let navlist = document.querySelector('.navlist');
+
+menu.onclick = () => {
+    menu.classList.toggle('fa-bars');
+    navlist.classList.toggle('active');
+};
+
+window.onscroll = () =>{
+    menu.classList.remove('fa-bars');
+    navlist.classList.remove('active');
+}
 
 // owlCarousel
 $('.owl-carousel').owlCarousel({
@@ -147,12 +160,27 @@ $.scrollUp({
 // WOW active
 new WOW().init();
 
-const headerr = document.querySelector("#header-top");
+const header = document.querySelector("header");
 
 window.addEventListener ("scroll", function(){
-    headerr.classList.toggle ("sticky", window.scrollY > 120);
+    header.classList.toggle ("sticky", window.scrollY > 120);
 });
 
+
+// login js
+document.getElementById("loginForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    // Retrieve form values
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
+    const rememberMe = document.getElementById("rememberMe").checked;
+
+    // Perform your login or validation logic here
+    console.log("Username:", username);
+    console.log("Password:", password);
+    console.log("Remember Me:", rememberMe);
+});
 })(jQuery);
 
 
