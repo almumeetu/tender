@@ -27,7 +27,7 @@
         min-height: 100vh;
         display: flex;
         flex-direction: column;
-        background: var(--bg-color);
+        background: #6dea6a;
         transition: all .50s ease;
     }
 
@@ -39,6 +39,9 @@
 
     .navlist.active {
         right: 0;
+    }
+    .sticky{
+        display: none;
     }
 
 }
