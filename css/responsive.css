@@ -44,6 +44,17 @@
     #contact{
         display: none;
     }
+    .search-btn {
+        width: 124px;
+        padding: 10px 15px;
+        top: 37px;
+    }
+    .search-pagination ul li {
+        margin-left: 5px;
+    }
+    .about-info {
+        padding: 15px;
+    }
  
 }
  
@@ -57,6 +68,17 @@
     } */
     #contact{
         display: none;
+    }
+    .search-btn {
+        width: 124px;
+        padding: 10px 15px;
+        top: 37px;
+    }
+    .search-pagination ul li {
+        margin-left: 5px;
+    }
+    .about-info {
+        padding: 15px;
     }
 
 }
