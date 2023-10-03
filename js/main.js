@@ -153,6 +153,29 @@ window.addEventListener ("scroll", function(){
     header.classList.toggle ("sticky", window.scrollY > 120);
 });
 
+
+//Menu JS
+let menu = document.querySelector('#menu-icon');
+let navlist = document.querySelector('.navlist');
+
+menu.onclick = () => {
+    menu.classList.toggle('close-icon');
+    navlist.classList.toggle('active');
+};
+
+window.onscroll = () =>{
+    menu.classList.remove('close-icon');
+    navlist.classList.remove('active');
+}
+
+
+
+
+
+
+
+
+
 })(jQuery);
 
 

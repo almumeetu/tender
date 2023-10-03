@@ -1,7 +1,6 @@
 /*
   Theme Name: Name - Multipurpose HTML Template
-  Author: mdsalim400@gmail.com
-  Support: admin@gmail.com
+  Author: almumeetu@gmail.com
   Description: Creative  HTML5 template.
   Version: 1.0
 */
@@ -340,9 +339,8 @@ header {
 }
 
 .header-btn {
-	padding: 10px;
+	padding: 30px 0px;
 }
-
 .logo-img a img {
 	width: 40px;
 	height: 47px;
@@ -431,7 +429,7 @@ nav ul li a:hover {
 
 .login-btn,
 .register-btn {
-	display: inline;
+	padding: 15px 30px;
 }
 
 .login-btn {
@@ -439,7 +437,6 @@ nav ul li a:hover {
 	width: 150px;
 	align-items: center;
 	justify-content: center;
-	padding: 15px 40px;
 	background-color: #ffffff;
 	border-radius: 5px;
 	transition: .3s;
@@ -460,7 +457,6 @@ nav ul li a:hover {
 	width: 150px;
 	align-items: center;
 	justify-content: center;
-	padding: 15px 40px;
 	background-color: #6dea6a;
 	border-radius: 5px;
 	margin-left: 15px;
@@ -1279,4 +1275,29 @@ footer{
 .social-links ul li a:hover{
 	color: #0da665;
 	margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.center {
+	display: none;
 }
