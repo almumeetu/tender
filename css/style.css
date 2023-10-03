@@ -755,7 +755,7 @@ nav ul li a:hover {
 	line-height: 27px;
 	color: #555;
 }
-.service-1 {
+.service-inner {
 	border-radius: 15px;
 	border: 1px solid;
 	padding: 35px 30px;
@@ -767,21 +767,23 @@ nav ul li a:hover {
 	height: 100px;
 	background: #fff;
 	border-radius: 50px;
+	position: absolute;
+	top: 25px;
 }
 .service-icon img {
 	width: 50px;
 	height: 50px;
 	object-fit: cover;
 	position: absolute;
-	top: 63px;
-	left: 98px;
+	top: 23px;
+	left: 26px;
 }
-.service-1 span {
+.service-inner span {
 	color: #0da665;
 	font-size: 19px;
 	position: absolute;
-	top: 40px;
-	right: 75px;
+	top: 30px;
+	right: 20px;
 }
 .service-title h3 {
 	font-family: "Poppins", Helvetica;
@@ -801,18 +803,20 @@ nav ul li a:hover {
 	padding: 0px;
 	margin-bottom: 0px;
 }
-.service-1 {
+.service-inner {
 	height: auto;
 	width: 370px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	transition: .3s;
 	margin: 0 auto;
+	padding-top: 140px;
+	position: relative;
 }
 .cross i {
 	background: #F64E1D !important;
 	padding: 3px 5px !important;
 }
-.service-1:hover {
+.service-inner:hover {
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 .pagination-icon{
