@@ -107,5 +107,8 @@
     .center {
         display: block;
     }
+    .pprice {
+        margin: 0 auto;
+    }
 
 }
