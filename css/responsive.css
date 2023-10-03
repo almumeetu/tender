@@ -21,20 +21,29 @@
     .center {
         display: none;
     }
+    #contact{
+        display: none;
+    }
 }
 
  
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
 
+    #contact{
+        display: none;
+    }
 
 
 }
 
  
 /* small mobile :320px. */
-@media (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 480px) {
 
+    #contact{
+        display: none;
+    }
  
 }
  
@@ -46,6 +55,9 @@
     /* .navlist {
         right: -150%;
     } */
+    #contact{
+        display: none;
+    }
 
 }
 /*Max Width 992px*/
@@ -108,6 +120,12 @@
         display: block;
     }
     .pprice {
+        margin: 0 auto;
+    }
+    #contact{
+        display: none;
+    }
+    .counter {
         margin: 0 auto;
     }
 
