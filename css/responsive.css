@@ -181,5 +181,8 @@
     .pagination-icon .line-left, .pagination-icon .line-right {
         display: none;
     }
+    .contact-left{
+        display: none;
+    }
 
 }
