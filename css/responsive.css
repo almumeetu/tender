@@ -128,5 +128,9 @@
     .counter {
         margin: 0 auto;
     }
+    .banner-content h1 {
+        font-size: 34px;
+        line-height: 50px;
+    }
 
 }
