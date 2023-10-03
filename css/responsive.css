@@ -178,5 +178,8 @@
         font-size: 27px;
         line-height: 43px;
     }
+    .pagination-icon .line-left, .pagination-icon .line-right {
+        display: none;
+    }
 
 }
