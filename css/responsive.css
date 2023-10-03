@@ -3,6 +3,9 @@
     .center {
         display: none;
     }
+    .about-info {
+        padding: 30px;
+    }
 
 }
 
@@ -24,6 +27,9 @@
     #contact{
         display: none;
     }
+    .about-info {
+        padding: 5px;
+     }
 }
 
  
@@ -32,6 +38,9 @@
 
     #contact{
         display: none;
+    }
+    .about-info {
+       padding: 5px;
     }
 
 
@@ -54,6 +63,10 @@
     }
     .about-info {
         padding: 15px;
+    }
+    .about-info-title h2 {
+        font-size: 27px;
+        line-height: 43px;
     }
  
 }
@@ -78,7 +91,11 @@
         margin-left: 5px;
     }
     .about-info {
-        padding: 15px;
+        padding: 10px;
+    }
+    .about-info-title h2 {
+        font-size: 27px;
+        line-height: 43px;
     }
 
 }
@@ -153,6 +170,10 @@
     .banner-content h1 {
         font-size: 34px;
         line-height: 50px;
+    }
+    .about-info-title h2 {
+        font-size: 27px;
+        line-height: 43px;
     }
 
 }
