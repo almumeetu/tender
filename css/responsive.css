@@ -71,6 +71,9 @@
         font-size: 27px;
         line-height: 43px;
     }
+    .service-inner {
+        width: 345px;
+    }
  
 }
  
@@ -100,6 +103,9 @@
         font-size: 27px;
         line-height: 43px;
     }
+    .counter {
+        width: 260px;
+    }
 
 }
 /*Max Width 992px*/
@@ -109,7 +115,7 @@
     }
     .navlist {
         position: absolute;
-        top: 90%;
+        top: 101%;
         right: -200%;
         width: 300px;
         min-height: 100vh;
@@ -130,10 +136,7 @@
     #menu-icon {
         position: absolute;
         right: 15px;
-        top: 0;
-    }
-    .main-menu {
-        position: relative;
+        top: 10px;
     }
     .header-btn {
         display: none;
@@ -157,6 +160,9 @@
     }
     nav ul li {
         margin-right: 0;
+    }
+    nav ul li:first-child {
+        padding-top: 30px;
     }
     .center {
         display: block;
