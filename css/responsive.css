@@ -127,6 +127,17 @@
         font-size: 32px !important;
         line-height: 50px !important;
     }
+    .prev, .next {
+        font-size: 50px;
+      }
+    
+      .prev {
+        left: 10px;
+      }
+    
+      .next {
+        right: 10px;
+      }
 
 }
 

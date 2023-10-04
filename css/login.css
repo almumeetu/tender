@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 500px;
     margin: 100px auto;
     padding: 80px;
     background-color: #fff;
@@ -75,13 +75,16 @@ label span {
 	display: flex;
 }
 .display span {
-	margin-left: 50%;
+	margin-left: 41%;
 }
+@media (max-width: 650px) {
 
-@media (min-width: 320px) and (max-width: 450){
-
-    .container{
-        max-width: 300;
+    .container {
+        max-width: 500px;
+        margin: 100px auto;
+        padding: 40px 30px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
-
 }

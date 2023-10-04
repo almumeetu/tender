@@ -488,8 +488,6 @@ nav ul li a:hover {
 .banner-content {
 	background: #ECF6F2  ;
 	padding: 120px 0px 107px 0px;
-	border-radius: 30px;
-	border: 2px solid #000000;
 }
 
 .banner-content h5 {
@@ -1263,6 +1261,15 @@ footer{
 	letter-spacing: 0;
 	line-height: 36px;
 	transition: .3s;
+	margin-left: 30px !important;
+}
+
+.social-links ul li{
+	display: inline;
+}
+
+.social-links ul li a:last-child{
+	margin-right: 0;
 }
 .copyright p{
 	font-size: 16px;
@@ -1276,12 +1283,11 @@ footer{
 	padding: 12px 0;
 }
 .social-links ul li a i {
-	margin-right: 10px;
+	font-size: 30px;
 }
+
 .social-links ul li a:hover{
 	color: #0da665;
-	color: #5a967d;
-	margin-left: 5px;
 }
 
 
@@ -1299,8 +1305,28 @@ footer{
 
 /* slider CSS */
 .slider-container {
+	position: relative;
 	overflow: hidden;
 	margin: 0 auto;
+	border-radius: 30px;
+	border: 2px solid #000000;
+  }
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    cursor: pointer;
+	font-size: 80px;
+	color: #0da665;
+  }
+
+  .prev {
+    left: 20px;
+  }
+
+  .next {
+    right: 20px;
   }
   
   .slider {
@@ -1311,6 +1337,7 @@ footer{
   .slide {
 	min-width: 100%;
 	box-sizing: border-box;
+	transition: transform 0.5s ease;
   }
   
   /* Mobile-login css */
