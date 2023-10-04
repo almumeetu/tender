@@ -57,10 +57,11 @@
 
 }
 
-@media (max-width: 400px) {
-    /* .mobile-login {
-        display: none !important;
-    } */
+@media (max-width: 410px) {
+
+    .mobile-login {
+        text-align: left !important;
+    }
 }
 
 /* small mobile :320px. */
@@ -122,6 +123,10 @@
     .logo-text a {
         font-size: 30px;
     }
+    .banner-content h1 {
+        font-size: 32px !important;
+        line-height: 50px !important;
+    }
 
 }
 
@@ -156,7 +161,10 @@
         font-size: 27px;
         line-height: 43px;
     }
-
+    .banner-content h1 {
+        font-size: 50px !important;
+        line-height: 70px !important;
+    }
     .counter {
         width: 260px;
     }
@@ -177,7 +185,7 @@
         min-height: 100vh;
         display: flex;
         flex-direction: column;
-        background: #333;
+        background: #5a967d;
         transition: all .50s ease;
     }
 
@@ -247,10 +255,9 @@
     }
 
     .banner-content h1 {
-        font-size: 34px;
-        line-height: 50px;
+        font-size: 50px;
+        line-height: 70px;
     }
-
     .about-info-title h2 {
         font-size: 27px;
         line-height: 43px;

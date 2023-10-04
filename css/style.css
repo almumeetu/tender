@@ -498,7 +498,6 @@ nav ul li a:hover {
 	font-family: "Poppins", Helvetica;
 	font-weight: 600;
 }
-
 .banner-content h1 {
 	font-family: "Poppins", Helvetica;
 	font-weight: 500;
@@ -507,6 +506,8 @@ nav ul li a:hover {
 	line-height: 90px;
 	padding-top: 20px;
 	margin-bottom: 50px;
+	font-style: italic;
+	text-transform: uppercase;
 }
 
 .greenn-btn {
@@ -1217,11 +1218,12 @@ form input {
 
 /* footer css start here */
 footer{
-	background: #ECF6F2;
+	background: #00C56E rgba(red, green, blue, 0.5);
 }
 .sticky {
-    background: #00C56E;
-    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .2);
+    background: #208b5d;
+	opacity: .9;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .4);
 	color: #000;
 }
 .ff-content p {
@@ -1278,6 +1280,7 @@ footer{
 }
 .social-links ul li a:hover{
 	color: #0da665;
+	color: #5a967d;
 	margin-left: 5px;
 }
 
