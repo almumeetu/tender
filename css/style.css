@@ -1316,9 +1316,9 @@ footer{
   }
   .mobile-login a {
 	color: #fff;
-	font-size: 20px;
+	font-size: 18px;
 	margin-left: 10px;
-	font-weight: bold;
+	font-weight: 500;
 	transition: .3s;
 }
 .mobile-login a:hover{

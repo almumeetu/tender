@@ -3,9 +3,11 @@
     .center {
         display: none;
     }
+
     .about-info {
         padding: 30px;
     }
+
     .counter {
         width: 280px;
     }
@@ -19,114 +21,154 @@
     nav ul li {
         margin-right: 30px;
     }
-    .login-btn, .register-btn {
+
+    .login-btn,
+    .register-btn {
         width: 100px;
-            padding: 15px 20px;
+        padding: 15px 20px;
 
     }
+
     .center {
         display: none;
     }
-    #contact{
+
+    #contact {
         display: none;
     }
+
     .about-info {
         padding: 5px;
-     }
+    }
 }
 
- 
+
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
 
-    #contact{
+    #contact {
         display: none;
     }
+
     .about-info {
-       padding: 5px;
+        padding: 5px;
     }
 
 
 }
 
- @media (max-width: 400px){
-    .mobile-login{
+@media (max-width: 400px) {
+    /* .mobile-login {
         display: none !important;
-      }
- }
+    } */
+}
+
 /* small mobile :320px. */
 @media (min-width: 320px) and (max-width: 480px) {
 
-    #contact{
+    #contact {
         display: none;
     }
+
     .search-btn {
         width: 124px;
         padding: 10px 15px;
         top: 37px;
     }
+
     .search-pagination ul li {
         margin-left: 5px;
     }
+
     .about-info {
         padding: 15px;
     }
+
     .about-info-title h2 {
         font-size: 27px;
         line-height: 43px;
     }
+
     .service-inner {
-        width: 345px;
+        width: 320px;
     }
     .mobile-login {
         text-align: center;
-        margin-top: 6px;
+        margin-top: 8px;
     }
+
     .mobile-login a {
         color: #fff;
         font-size: 15px;
         margin-left: 5px;
         font-weight: 500;
     }
- 
+
+    .logo-img a img {
+        width: 35px;
+        height: 42px;
+    }
+
+    .logo-text{
+        margin-left: 5px;
+        margin-top: 8px;
+    }
+
+    .logo-text a p {
+        font-size: 12px;
+        margin-top: -15px;
+    }
+
+    .logo-text a {
+        font-size: 30px;
+    }
+
 }
- 
+
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .container {
         width: 100%;
     }
+
     /* .navlist {
         right: -150%;
     } */
-    #contact{
+    #contact {
         display: none;
     }
+
     .search-btn {
         width: 124px;
         padding: 10px 15px;
         top: 37px;
     }
+
     .search-pagination ul li {
         margin-left: 5px;
     }
+
     .about-info {
         padding: 10px;
     }
+
     .about-info-title h2 {
         font-size: 27px;
         line-height: 43px;
     }
+
     .counter {
         width: 260px;
     }
 
 }
+
 /*Max Width 992px*/
-@media (max-width: 992px){
+@media (max-width: 992px) {
     #menu-icon {
         display: block;
     }
+
     .navlist {
         position: absolute;
         top: 101%;
@@ -138,6 +180,7 @@
         background: #333;
         transition: all .50s ease;
     }
+
     .navlist a {
         display: block;
         padding: 17px;
@@ -147,20 +190,26 @@
     .navlist.active {
         right: 0;
     }
+
     #menu-icon {
         position: absolute;
         right: 15px;
         top: 10px;
     }
+
     .header-btn {
         display: none;
     }
-    .login-btn, .register-btn {
+
+    .login-btn,
+    .register-btn {
         padding: 0;
     }
+
     .center {
         margin: 15px 75px;
     }
+
     .register-btn {
         display: flex;
         width: 150px;
@@ -172,40 +221,52 @@
         transition: .3s;
         margin-top: 20px;
     }
+
     nav ul li {
         margin-right: 0;
     }
+
     nav ul li:first-child {
         padding-top: 30px;
     }
+
     .center {
         display: block;
     }
+
     .pprice {
         margin: 0 auto;
     }
-    #contact{
+
+    #contact {
         display: none;
     }
+
     .counter {
         margin: 0 auto;
     }
+
     .banner-content h1 {
         font-size: 34px;
         line-height: 50px;
     }
+
     .about-info-title h2 {
         font-size: 27px;
         line-height: 43px;
     }
-    .pagination-icon .line-left, .pagination-icon .line-right {
+
+    .pagination-icon .line-left,
+    .pagination-icon .line-right {
         display: none;
     }
-    .contact-left{
+
+    .contact-left {
         display: none;
     }
-    .mobile-login{
+
+    .mobile-login {
         display: block;
-      }
+    }
 
 }
