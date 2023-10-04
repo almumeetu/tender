@@ -1310,3 +1310,24 @@ footer{
 	box-sizing: border-box;
   }
   
+  /* Mobile-login css */
+  .mobile-login{
+	display: none;
+  }
+  .mobile-login a {
+	color: #fff;
+	font-size: 20px;
+	margin-left: 10px;
+	font-weight: bold;
+	transition: .3s;
+}
+.mobile-login a:hover{
+	color: #000000;
+}
+.mobile-login a:first-child{
+	margin-left: 0;
+}
+.mobile-login {
+	text-align: center;
+	margin-top: 6px;
+}

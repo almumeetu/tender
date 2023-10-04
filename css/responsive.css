@@ -74,6 +74,16 @@
     .service-inner {
         width: 345px;
     }
+    .mobile-login {
+        text-align: center;
+        margin-top: 6px;
+    }
+    .mobile-login a {
+        color: #fff;
+        font-size: 15px;
+        margin-left: 5px;
+        font-weight: 500;
+    }
  
 }
  
@@ -190,5 +200,8 @@
     .contact-left{
         display: none;
     }
+    .mobile-login{
+        display: block;
+      }
 
 }

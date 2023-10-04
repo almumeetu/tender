@@ -77,3 +77,11 @@ label span {
 .display span {
 	margin-left: 50%;
 }
+
+@media (min-width: 320px) and (max-width: 450){
+
+    .container{
+        max-width: 300;
+    }
+
+}
