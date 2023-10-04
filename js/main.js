@@ -146,7 +146,7 @@ $.scrollUp({
 
 // WOW active
 new WOW().init();
-})(jQuery);
+
 
 const header = document.querySelector("header");
 
@@ -175,33 +175,55 @@ window.onscroll = () =>{
 
 // Login And Register JS
 
-document.getElementById("loginForm").addEventListener("submit", function(event) {
-    event.preventDefault();
+// document.getElementById("loginForm").addEventListener("submit", function(event) {
+//     event.preventDefault();
 
-    // Retrieve form values
-    const username = document.getElementById("username").value;
-    const password = document.getElementById("password").value;
+//     // Retrieve form values
+//     const username = document.getElementById("username").value;
+//     const password = document.getElementById("password").value;
 
-    // Perform your login or validation logic here
-    console.log("Username:", username);
-    console.log("Password:", password);
-});
-document.getElementById("loginForm").addEventListener("submit", function(event) {
-    event.preventDefault();
+//     // Perform your login or validation logic here
+//     console.log("Username:", username);
+//     console.log("Password:", password);
+// });
+// document.getElementById("loginForm").addEventListener("submit", function(event) {
+//     event.preventDefault();
 
-    // Retrieve form values
-    const username = document.getElementById("username").value;
-    const password = document.getElementById("password").value;
-    const rememberMe = document.getElementById("rememberMe").checked;
+//     // Retrieve form values
+//     const username = document.getElementById("username").value;
+//     const password = document.getElementById("password").value;
+//     const rememberMe = document.getElementById("rememberMe").checked;
 
-    // Perform your login or validation logic here
-    console.log("Username:", username);
-    console.log("Password:", password);
-    console.log("Remember Me:", rememberMe);
-});
-
-
+//     // Perform your login or validation logic here
+//     console.log("Username:", username);
+//     console.log("Password:", password);
+//     console.log("Remember Me:", rememberMe);
+// });
 
 
+// Slider JS
+let slideIndex = 0;
+
+function showSlides() {
+  let slides = document.getElementsByClassName("slide");
+  if (slideIndex >= slides.length) {
+    slideIndex = 0;
+  } 
+  if (slideIndex < 0) {
+    slideIndex = slides.length - 1;
+  }
+
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.transform = "translateX(-" + slideIndex + "00%)";
+  }
+
+  setTimeout(() => {
+    slideIndex++;
+    showSlides();
+  }, 1000); // Change slide every 2 seconds (adjust as needed)
+}
+
+showSlides();
 
 
+})(jQuery);

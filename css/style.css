@@ -1287,21 +1287,26 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .center {
 	display: none;
 }
+
+
+
+
+/* slider CSS */
+.slider-container {
+	overflow: hidden;
+	margin: 0 auto;
+  }
+  
+  .slider {
+	display: flex;
+	transition: transform 0.5s ease;
+  }
+  
+  .slide {
+	min-width: 100%;
+	box-sizing: border-box;
+  }
+  
