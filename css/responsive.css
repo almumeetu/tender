@@ -49,7 +49,11 @@
 
 }
 
- 
+ @media (max-width: 400px){
+    .mobile-login{
+        display: none !important;
+      }
+ }
 /* small mobile :320px. */
 @media (min-width: 320px) and (max-width: 480px) {
 
