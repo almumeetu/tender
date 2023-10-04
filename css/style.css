@@ -162,12 +162,11 @@ p {
 .container-fluid {
 	max-width: 1750px;
 }
-
 hr {
 	border-bottom: 1px solid #D3DCE1;
 	border-top: 0 none;
 	margin: 21px 0;
-	padding: 26px;
+	padding: 5px;
 }
 
 label {
@@ -1216,7 +1215,7 @@ form input {
 
 /* footer css start here */
 footer{
-	background: #00C56E rgba(red, green, blue, 0.5);
+	background: #ECF6F2;
 }
 .sticky {
     background: #208b5d;
@@ -1283,7 +1282,17 @@ footer{
 	padding: 12px 0;
 }
 .social-links ul li a i {
-	font-size: 30px;
+	font-size: 27px;
+	background: #fff;
+	padding: 13px;
+	color: #0da665;
+	border-radius: 50%;
+	line-height: 27px;
+	transition: .3s;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.social-links ul li a i:hover{
+	color: #fff;
 }
 
 .social-links ul li a:hover{
