@@ -40,8 +40,22 @@
     .about-info {
         padding: 5px;
     }
-}
 
+}
+@media (max-width: 768px){
+    .social-links{
+        text-align: left !important;
+    }
+    .footer-contact {
+        margin-bottom: 30px;
+    }
+    .social-links ul li a {
+        margin-right: 30px !important;
+    }
+    .social-links ul li a {
+        margin-right: 0px;
+    }
+}
 
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {

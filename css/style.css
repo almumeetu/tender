@@ -1267,9 +1267,6 @@ footer{
 	display: inline;
 }
 
-.social-links ul li a:last-child{
-	margin-right: 0;
-}
 .copyright p{
 	font-size: 16px;
 	font-weight: 500;
@@ -1288,11 +1285,12 @@ footer{
 	color: #0da665;
 	border-radius: 50%;
 	line-height: 27px;
-	transition: .3s;
+	transition: .5s;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .social-links ul li a i:hover{
 	color: #fff;
+	background: #0da665;
 }
 
 .social-links ul li a:hover{
