@@ -1,90 +1,77 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+/* Account-Page CSS Start HEre */
+.login-page {
+    padding: 50px 0;
+    background: radial-gradient(#fff, #3BC072);
+}
+.social-linksss {
+	position: absolute;
+	bottom: 30px;
+	left: 35px;
+}
+.form-container {
+	background: #fff;
+	width: 440px;
+	height: 525px;
+	position: relative;
+	text-align: center;
+	padding: 48px 0;
+	margin: auto;
+	box-shadow: 0 0 20px 3px;
+	overflow: hidden;
+	border-radius: 8px;
+}
+.form-container span {
+    font-weight:  bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+.form-btn {
+    display: inline-block;
+}
+.form-container form {
+	max-width: 440px;
+	padding: 0 35px;
+	position: absolute;
+	top: 130px;
+	transition: transform 1s;
+}
+form input {
+	width: 100%;
+	height: 50px;
+	margin: 10px 0;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+}
+form .btn {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    background: #3BC072;
+}
+form .btn:focus{
+    outline: none;
+}
+#LoginForm {
+	left: -440px;
+}
+#RegForm{
+    left: 0;
+}
+form a{
+    font-size: 12px;
+    color: #000000;
+}
+#Indicator {
+    width: 100px;
+    border: none;
+    background: #0da665;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
 }
 
-.container {
-    max-width: 500px;
-    margin: 100px auto;
-    padding: 80px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-h2 {
-    text-align: center;
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-label {
-    display: block;
-    font-weight: normal;
-    margin-bottom: 10px;
-}
-
-input[type="text"],
-input[type="password"] {
-    width: 90%;
-    padding: 20px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-input[type="checkbox"] {
-    margin-right: 5px;
-}
-
-input[type="submit"] {
-	background-color: #76ff7a;
-	color: #333;
-	border: none;
-	padding: 20px 50px;
-	border-radius: 5px;
-	cursor: pointer;
-	font-size: 18px;
-}
-input[type="submit"]:hover {
-    background-color: #00ff00 ;
-    color: 333;
-}
-
-.buttom {
-	margin-bottom: 5px;
-}
-
-
-label span {
-	/* text-align: match-parent; */
-	margin-left: 50%;
-}
-
-
-
-.side h2 {
-    text-align: left;
-}
-
-
-
-.display {
-	display: flex;
-}
-.display span {
-	margin-left: 41%;
-}
-@media (max-width: 650px) {
-
-    .container {
-        max-width: 500px;
-        margin: 100px auto;
-        padding: 40px 30px;
-        background-color: #fff;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    }
-}
