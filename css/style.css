@@ -313,8 +313,11 @@ label {
 
 
 /* Header CSS start Here */
+.header-bgg{
+	background: radial-gradient( #3BC072, #0da665);
+}
 header {
-	background-image: url('../img/background/gradient.png');
+	/* background: radial-gradient( #3BC072, #0da665); */
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: fixed;
@@ -472,7 +475,7 @@ nav ul li a:hover {
 
 /* Banner CSS Start Here */
 #banner{
-	background-image: url(../img/background/gradient.png);
+	/* background: radial-gradient(#fff, #3BC072, #0da665, #00C56E); */
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1215,12 +1218,12 @@ form input {
 
 /* footer css start here */
 footer{
+	border-top: 1px solid #208b5d;
 	background: #ECF6F2;
 }
 .sticky {
     background: #208b5d;
 	opacity: .9;
-    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .4);
 	color: #000;
 }
 .ff-content p {
