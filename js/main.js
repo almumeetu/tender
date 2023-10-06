@@ -220,7 +220,7 @@ function showSlides() {
   setTimeout(() => {
     slideIndex++;
     showSlides();
-  }, 70000); // Change slide every 2 seconds (adjust as needed)
+  }, 2500); // Change slide every 2 seconds (adjust as needed)
 }
 function plusSlide(n) {
     slideIndex += n;
