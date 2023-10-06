@@ -97,11 +97,11 @@
     #contact {
         display: none;
     }
-
     #menu-icon {
         position: absolute;
         right: 20px !important;
-        top: 10px;
+        top: 20px;
+        font-size: 25px;
     }
     .search-btn {
         width: 124px;
