@@ -72,11 +72,11 @@ form .btn {
 form .btn:focus{
     outline: none;
 }
-#RegForm{
+#LoginForm{
     left: -420px;
 }
-#LoginForm {
-	left: 0;
+#RegForm{
+    left: 0;
 }
 
 form a {
@@ -89,7 +89,7 @@ form a {
     background: #0da665;
     height: 3px;
     margin-top: 8px;
-    transform: translateX(0px);
+    transform: translateX(100px);
     transition: transform 1s;
 }
 .checkboxx {
