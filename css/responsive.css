@@ -98,6 +98,11 @@
         display: none;
     }
 
+    #menu-icon {
+        position: absolute;
+        right: 30px !important;
+        top: 10px;
+    }
     .search-btn {
         width: 124px;
         padding: 10px 15px;
@@ -121,7 +126,7 @@
         width: 320px;
     }
     .mobile-login {
-        text-align: center;
+        text-align: left;
         margin-top: 8px;
     }
 
@@ -167,6 +172,13 @@
       }
 
 
+}
+@media only screen and (min-width: 480px) and (max-width: 992px) {
+    #menu-icon {
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
 }
 
 /* Large Mobile :480px. */
@@ -238,11 +250,7 @@
         right: 0;
     }
 
-    #menu-icon {
-        position: absolute;
-        right: 15px;
-        top: 10px;
-    }
+
 
     .header-btn {
         display: none;

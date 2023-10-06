@@ -96,11 +96,12 @@ form a {
   }
 
   .checkboxx input[type="checkbox"] {
-	margin-left: -89px;
+	margin-left: 0px;
 	height: 20px;
+	width: 20px;
 }
 #lllll {
-	margin-left: -75px;
+	margin-left: 10px;
 	margin-top: 15px;
 }
 
@@ -118,11 +119,12 @@ form a {
 		width: 320px;
 	}
 	#lllll {
-		margin-left: -47px;
+		margin-left: 10px;
 	}
 	.checkboxx input[type="checkbox"] {
-		margin-left: -55px;
+		margin-left: 0px;
 	}
 	.social-linksss {
 		left: 40px;
 	}
+}
