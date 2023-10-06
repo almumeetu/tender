@@ -158,7 +158,7 @@ window.addEventListener ("scroll", function(){
 //Menu JS
 let menu = document.querySelector('#menu-icon');
 let navlist = document.querySelector('.navlist');
-let body = document.querySelector('body');
+let body = document.querySelector('.header');
 
 menu.onclick = () => {
     menu.classList.toggle('menu-icon');
