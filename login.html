@@ -204,6 +204,11 @@
         var RegForm =  document.getElementById("RegForm");
         var Indicator = document.getElementById("Indicator");
 
+        function login(){
+            LoginForm.style.transform = "translateX(440px)"
+             RegForm.style.transform = "translateX(440px)";
+             Indicator.style.transform = "translateX(0px)"
+         }
 
          function register() {
              RegForm.style.transform = "translateX(0px)";
@@ -211,11 +216,7 @@
              Indicator.style.transform = "translateX(100px)"
          }
 
-         function login(){
-             RegForm.style.transform = "translateX(440px)";
-             LoginForm.style.transform = "translateX(440px)"
-             Indicator.style.transform = "translateX(0px)"
-         }
+
   </script>
 
     <!-- JS here -->
