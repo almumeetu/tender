@@ -103,3 +103,24 @@ form a {
 	margin-left: -75px;
 	margin-top: 15px;
 }
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px){
+	.form-container {
+		width: 320px;
+		height: 545px;
+	}
+	#LoginForm {
+		width: 320px;
+	}
+	#lllll {
+		margin-left: -47px;
+	}
+	.checkboxx input[type="checkbox"] {
+		margin-left: -55px;
+	}
+	.social-linksss {
+		left: 40px;
+	}
